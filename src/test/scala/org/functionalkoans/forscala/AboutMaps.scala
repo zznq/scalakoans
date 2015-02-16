@@ -113,7 +113,7 @@ class AboutMaps extends KoanSuite {
     val myMap = Map("MI" -> "Michigan", "OH" -> "Ohio", "WI" -> "Wisconsin", "IA" -> "Iowa")
     val aNewMap = myMap - "MN"
 
-    aNewMap.equals(myMap) should be(__)
+    aNewMap.equals(myMap) should be(true)
   }
 
   koan("Map equivalency is independent of order") {
@@ -121,6 +121,6 @@ class AboutMaps extends KoanSuite {
     val myMap1 = Map("MI" -> "Michigan", "OH" -> "Ohio", "WI" -> "Wisconsin", "IA" -> "Iowa")
     val myMap2 = Map("WI" -> "Wisconsin", "MI" -> "Michigan", "IA" -> "Iowa", "OH" -> "Ohio")
 
-    myMap1.equals(myMap2) should be(__)
+    myMap1.equals(myMap2) should be(true)
   }
 }
