@@ -1,15 +1,38 @@
+[0m[[0mdebug[0m] [0mInvalidating /Library/Java/JavaVirtualMachines/jdk1.7.0_75.jdk/Contents/Home/jre/lib/rt.jar: class java.lang.Object now provided by /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.31-3.b13.fc21.x86_64/jre/lib/rt.jar[0m
 [0m[[0mdebug[0m] [0m[0m
 [0m[[0mdebug[0m] [0mInitial source changes: [0m
-[0m[[0mdebug[0m] [0m	removed:Set()[0m
-[0m[[0mdebug[0m] [0m	added: Set()[0m
+[0m[[0mdebug[0m] [0m	removed:Set(/Users/jbuszkiewic/projects/scalakoans/src/main/java/org/functionalkoans/forscala/SomeJavaClass.java)[0m
+[0m[[0mdebug[0m] [0m	added: Set(/home/zznq/projects/scalakoans/src/main/java/org/functionalkoans/forscala/SomeJavaClass.java)[0m
 [0m[[0mdebug[0m] [0m	modified: Set()[0m
-[0m[[0mdebug[0m] [0mRemoved products: Set()[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set(/Users/jbuszkiewic/projects/scalakoans/target/scala-2.10/classes/org/functionalkoans/forscala/SomeJavaClass.class)[0m
 [0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
-[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
-[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set()[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set(/Library/Java/JavaVirtualMachines/jdk1.7.0_75.jdk/Contents/Home/jre/lib/rt.jar)[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/Users/jbuszkiewic/projects/scalakoans/src/main/java/org/functionalkoans/forscala/SomeJavaClass.java, /home/zznq/projects/scalakoans/src/main/java/org/functionalkoans/forscala/SomeJavaClass.java)[0m
 [0m[[0mdebug[0m] [0m[0m
 [0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
-[0m[[0mdebug[0m] [0m	product: Set()[0m
-[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m	product: Set(/Users/jbuszkiewic/projects/scalakoans/src/main/java/org/functionalkoans/forscala/SomeJavaClass.java)[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set(/Users/jbuszkiewic/projects/scalakoans/src/main/java/org/functionalkoans/forscala/SomeJavaClass.java)[0m
 [0m[[0mdebug[0m] [0m	external source: Set()[0m
-[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/Users/jbuszkiewic/projects/scalakoans/src/main/java/org/functionalkoans/forscala/SomeJavaClass.java, /home/zznq/projects/scalakoans/src/main/java/org/functionalkoans/forscala/SomeJavaClass.java)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 1 sources: invalidated sources (2) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 1 Java source to /home/zznq/projects/scalakoans/target/scala-2.10/classes...[0m
+[0m[[0mdebug[0m] [0mAttempting to call javac directly...[0m
+[0m[[0mdebug[0m] [0mcom.sun.tools.javac.Main not found with appropriate method signature; forking javac instead[0m
+[0m[[0mdebug[0m] [0mForking javac: javac @/tmp/sbt_7e888ffe/argfile[0m
+[0m[[0mdebug[0m] [0mjavac returned exit code: 0[0m
+[0m[[0mdebug[0m] [0mJava compilation took 0.664189359 s[0m
+[0m[[0mdebug[0m] [0mJava analysis took 0.015933281 s[0m
+[0m[[0mdebug[0m] [0mInvalidating by inheritance (transitively)...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/home/zznq/projects/scalakoans/src/main/java/org/functionalkoans/forscala/SomeJavaClass.java)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive public inheritance: Set(/home/zznq/projects/scalakoans/src/main/java/org/functionalkoans/forscala/SomeJavaClass.java)[0m
+[0m[[0mdebug[0m] [0mInvalidated by direct dependency: Set()[0m
+[0m[[0mdebug[0m] [0mInvalidating by inheritance (transitively)...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/jbuszkiewic/projects/scalakoans/src/main/java/org/functionalkoans/forscala/SomeJavaClass.java)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive public inheritance: Set(/Users/jbuszkiewic/projects/scalakoans/src/main/java/org/functionalkoans/forscala/SomeJavaClass.java)[0m
+[0m[[0mdebug[0m] [0mInvalidated by direct dependency: Set()[0m
+[0m[[0mdebug[0m] [0mNew invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set()[0m
+[0m[[0mdebug[0m] [0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mAll newly invalidated sources after taking into account (previously) recompiled sources:Set()[0m
