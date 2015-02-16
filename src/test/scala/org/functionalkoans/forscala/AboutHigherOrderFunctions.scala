@@ -121,7 +121,7 @@ class AboutHigherOrderFunctions extends KoanSuite {
 
     makeWhatEverYouLike(List("ABC", "XYZ", "123"), {
       x => x.toLowerCase
-    }) should be(List("abc", "zyx", "123"))
+    }) should be(List("abc", "xyz", "123"))
 
     //using it inline
     List("Scala", "Erlang", "Clojure") map {_.length} should be(List(5, 6, 7))
@@ -129,10 +129,10 @@ class AboutHigherOrderFunctions extends KoanSuite {
 
   koan("Currying is a technique to transform function with multiple parameters to function with one parameter") {
     def multiply(x: Int, y: Int) = x * y
-    (multiply _).isInstanceOf[Function2[_, _, _]] should be(__)
+    (multiply _).isInstanceOf[Function2[Int, Int, Int]] should be(true)
     val multiplyCurried = (multiply _).curried
-    multiply(4, 5) should be(__)
-    multiplyCurried(3)(2) should be(__)
+    multiply(4, 5) should be(20)
+    multiplyCurried(3)(2) should be(6)
   }
 
   koan("Currying allows you to create specialized version of generalized function") {
@@ -141,10 +141,10 @@ class AboutHigherOrderFunctions extends KoanSuite {
     }
     def onlyEven(x: Int) = x % 2 == 0
     val xs = List(12, 11, 5, 20, 3, 13, 2)
-    customFilter(onlyEven)(xs) should be(__)
+    customFilter(onlyEven)(xs) should be(List(12,20,2))
 
     val onlyEvenFilter = customFilter(onlyEven) _
-    onlyEvenFilter(xs) should be(__)
+    onlyEvenFilter(xs) should be(List(12,20,2))
 
   }
 }

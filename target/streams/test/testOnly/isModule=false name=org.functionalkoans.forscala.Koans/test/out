@@ -42,17 +42,48 @@
 [0m[[0minfo[0m] [0m[32m- isInstanceOf is the same as instanceof in java, but in this case the parameter types can be[0m[0m
 [0m[[0minfo[0m] [0m[32m 'blanked out' using existential types with is a single underline, since parameter type are unknown[0m[0m
 [0m[[0minfo[0m] [0m[32m at runtime.[0m[0m
-[0m[[0minfo[0m] [0m[32m  + ***************************************** [0m[0m
-[0m[[0minfo[0m] [0m[32m  + ***************************************** [0m[0m
-[0m[[0minfo[0m] [0m[32m  +  [0m[0m
-[0m[[0minfo[0m] [0m[32m  +  [0m[0m
-[0m[[0minfo[0m] [0m[32m  +  [0m[0m
-[0m[[0minfo[0m] [0m[32m  + Please meditate on koan "function taking another function as parameter. Helps in composing functions.[0m[0m
-[0m[[0minfo[0m] [0m[32m Hint: a map method applies the function to each element of a list" of suite "AboutHigherOrderFunctions" [0m[0m
-[0m[[0minfo[0m] [0m[32m  +  [0m[0m
-[0m[[0minfo[0m] [0m[32m  +  [0m[0m
-[0m[[0minfo[0m] [0m[32m  +  [0m[0m
-[0m[[0minfo[0m] [0m[32m  + ***************************************** [0m[0m
-[0m[[0minfo[0m] [0m[32m  + ***************************************** [0m[0m
-[0m[[0minfo[0m] [0m[32mInfo Provided - AboutHigherOrderFunctions[0m[0m
+[0m[[0minfo[0m] [0m[32m- function taking another function as parameter. Helps in composing functions.[0m[0m
+[0m[[0minfo[0m] [0m[32m Hint: a map method applies the function to each element of a list[0m[0m
+[0m[[0minfo[0m] [0m[32m- Currying is a technique to transform function with multiple parameters to function with one parameter[0m[0m
+[0m[[0minfo[0m] [0m[32m- Currying allows you to create specialized version of generalized function[0m[0m
+[0m[[0minfo[0m] [0m[32mAboutLists:[0m[0m
+[0m[[0minfo[0m] [0m[32m- Eq tests identity (same object)[0m[0m
+[0m[[0minfo[0m] [0m[32m- == tests equality (same content)[0m[0m
+[0m[[0minfo[0m] [0m[32m- Nil lists are identical, even of different types[0m[0m
+[0m[[0minfo[0m] [0m[32m- Lists are easily created[0m[0m
+[0m[[0minfo[0m] [0m[32m- Lists can be accessed via head and tail[0m[0m
+[0m[[0minfo[0m] [0m[32m- Lists can accessed by position[0m[0m
+[0m[[0minfo[0m] [0m[32m- Lists are immutable[0m[0m
+[0m[[0minfo[0m] [0m[32m- Lists have many useful methods[0m[0m
+[0m[[0minfo[0m] [0m[32m- Functions over lists can use _ as shorthand[0m[0m
+[0m[[0minfo[0m] [0m[32m- Functions over lists can use () instead of {}[0m[0m
+[0m[[0minfo[0m] [0m[32m- Lists can be 'reduced' with a mathematical operation[0m[0m
+[0m[[0minfo[0m] [0m[32m- Foldleft is like reduce, but with an explicit starting value[0m[0m
+[0m[[0minfo[0m] [0m[32m- You can create a list from a range[0m[0m
+[0m[[0minfo[0m] [0m[32m- Lists reuse their tails[0m[0m
+[0m[[0minfo[0m] [0m[32mAboutMaps:[0m[0m
+[0m[[0minfo[0m] [0m[32m- Maps can be created easily[0m[0m
+[0m[[0minfo[0m] [0m[32m- Maps contain distinct pairings[0m[0m
+[0m[[0minfo[0m] [0m[32m- Maps can be added to easily[0m[0m
+[0m[[0minfo[0m] [0m[32m- Map values can be iterated[0m[0m
+[0m[[0minfo[0m] [0m[32m- Maps insertion with duplicate key updates previous entry with subsequent value[0m[0m
+[0m[[0minfo[0m] [0m[32m- Map keys may be of mixed type[0m[0m
+[0m[[0minfo[0m] [0m[32m- Mixed type values can be added to a map [0m[0m
+[0m[[0minfo[0m] [0m[32m- Maps may be accessed[0m[0m
+[0m[[0minfo[0m] [0m[32m- Map elements can be removed easily[0m[0m
+[0m[[0minfo[0m] [0m[32m- Accessing a map by key results in an exception if key is not found[0m[0m
+[0m[[0minfo[0m] [0m[32m- Map elements can be removed in multiple[0m[0m
+[0m[[0minfo[0m] [0m[32m- Map elements can be removed with a tuple[0m[0m
+[0m[[0minfo[0m] [0m[33m  + ***************************************** [0m[0m
+[0m[[0minfo[0m] [0m[33m  + ***************************************** [0m[0m
+[0m[[0minfo[0m] [0m[33m  +  [0m[0m
+[0m[[0minfo[0m] [0m[33m  +  [0m[0m
+[0m[[0minfo[0m] [0m[33m  +  [0m[0m
+[0m[[0minfo[0m] [0m[33m  + Please meditate on koan "Attempted removal of nonexistent elements from a map is handled gracefully" of suite "AboutMaps" [0m[0m
+[0m[[0minfo[0m] [0m[33m  +  [0m[0m
+[0m[[0minfo[0m] [0m[33m  +  [0m[0m
+[0m[[0minfo[0m] [0m[33m  +  [0m[0m
+[0m[[0minfo[0m] [0m[33m  + ***************************************** [0m[0m
+[0m[[0minfo[0m] [0m[33m  + ***************************************** [0m[0m
+[0m[[0minfo[0m] [0m[32mInfo Provided - AboutMaps[0m[0m
 [0m[[0minfo[0m] [0m[32mInfo Provided - Koans[0m[0m
